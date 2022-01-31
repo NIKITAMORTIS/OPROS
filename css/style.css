@@ -1,0 +1,113 @@
+body{
+    background-image: url(../img/bgc.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+form{
+    background-color: white;
+    max-width: 600px;
+    margin: 100px auto 0px auto;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(0, 255, 208);
+}
+input{
+    width: 60%;
+    min-width: 250px;
+    padding: 15px 15px 15px 15px;
+    font-size: 16px;
+    border: 2px solid rgb(0, 255, 208);
+    outline: none;
+    border-radius: 7px;
+    margin: 5px 0px 5px 0px;
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+input:focus{
+    box-shadow: 0 0 15px rgb(0, 255, 208);
+}
+fieldset{
+    border-color: rgb(0, 255, 208);
+    border-radius: 5px;
+}
+legend{
+    font-size: 20px;
+    color: rgb(1, 87, 71);
+}
+label{
+    display: block;
+}
+.radio{
+    display:inline-block;
+    margin: 0px 10px 0px 0px;
+}
+select{
+    width: 60%;
+    min-width: 250px;
+    border: 2px solid rgb(0, 255, 208);
+    outline: none;
+    padding: 15px 15px 15px 15px;
+    border-radius: 7px;
+    transition: 0.4s;
+    margin: 5px 0px 5px 0px;
+}
+select:focus{
+    box-shadow: 0 0 15px rgb(0, 255, 208);
+}
+[type=radio] {
+    width: 13px;
+    min-width: 13px;
+    margin: 0px 0px 0px 10px
+}
+textarea{
+    width:60%;
+    box-sizing:border-box ;
+    min-width: 250px;
+    display:block;
+    margin:0 auto;
+    border: 2px solid rgb(0, 255, 208);
+    border-radius: 7px;
+    padding: 15px 15px 15px 15px;
+    outline: none;
+    font-size: 16px;
+    resize: vertical;
+    max-height: 200px;
+    min-height: 100px;
+}
+textarea:focus{
+    box-shadow: 0px 0px 15px rgb(0, 255, 208);
+}
+.coment{
+    margin:20px 0px 10px 0px;
+}
+.checkbox{
+    width:13px;
+    min-width: 13px;
+}
+.checkbox-text{
+    display: inline-block;
+}
+button{
+    width: 49%;
+    margin:10px 0px ;
+    min-width: 250px;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    color: red;
+}
+.button20{
+    color: seagreen;
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
+button20:hover{
+    background-color: seagreen;
+    color: white;
+}
+p{
+    text-align: center;
+    color: white;
+}
